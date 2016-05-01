@@ -1,0 +1,68 @@
+html{
+  background-color: #000;
+}
+
+
+body{
+  width: 1080px;
+  height:1920px;
+  margin: 0 auto;
+  background-image:url('../images/bg.jpg');
+  background-position: center;
+  background-repeat:no-repeat;
+  color: #FFF;
+padding-top: 30px;
+}
+.timeline-Tweet-actions{
+  display: none !important;
+}
+
+.container{
+  // max-width: 80vw;
+  margin: 100px;
+}
+
+.logo{
+  height: 60px;
+  margin-top: 10px;
+}
+
+#date_heure{
+  vertical-align: top;
+  float: right;
+  display: block;
+  text-align:right;
+}
+
+.head{
+  display: block;
+  margin: 0 auto;
+  border-top: 2px solid #FFF;
+  padding: 20px;
+}
+.first{
+  // border-top:15px solid #FFF !important;
+}
+.row{
+  display:table;
+  width: 100%;
+  // border-top: 7px solid #FFF;
+  // border-bottom: 7px solid #FFF;
+  div{
+        display: table-cell;
+  }
+}
+.video{
+  width:70%;
+  vertical-align: top;
+}
+.feed{
+  width: 30%;
+  height:430px;
+  overflow: hidden
+}
+
+.rg_logo{
+  display: block;
+  margin: 0 auto;
+}
